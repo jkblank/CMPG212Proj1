@@ -31,22 +31,22 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tpCpu = new System.Windows.Forms.TabPage();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.cbPrice = new System.Windows.Forms.ComboBox();
-            this.cbCores = new System.Windows.Forms.ComboBox();
-            this.cbYear = new System.Windows.Forms.ComboBox();
-            this.cbStock = new System.Windows.Forms.ComboBox();
-            this.cbModel = new System.Windows.Forms.ComboBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.cbMan = new System.Windows.Forms.ComboBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.tpGpu = new System.Windows.Forms.TabPage();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.cbMan = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.cbModel = new System.Windows.Forms.ComboBox();
+            this.cbStock = new System.Windows.Forms.ComboBox();
+            this.cbYear = new System.Windows.Forms.ComboBox();
+            this.cbCores = new System.Windows.Forms.ComboBox();
+            this.cbPrice = new System.Windows.Forms.ComboBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
@@ -60,14 +60,14 @@
             this.comboBox5 = new System.Windows.Forms.ComboBox();
             this.label12 = new System.Windows.Forms.Label();
             this.comboBox6 = new System.Windows.Forms.ComboBox();
-            this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.tabControl1.SuspendLayout();
             this.tpCpu.SuspendLayout();
-            this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.tpGpu.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -81,16 +81,15 @@
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(819, 479);
             this.tabControl1.TabIndex = 0;
-            this.tabControl1.Enter += new System.EventHandler(this.tabControl1_Enter);
             // 
             // tabPage1
             // 
             this.tabPage1.Location = new System.Drawing.Point(4, 25);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(811, 450);
+            this.tabPage1.Size = new System.Drawing.Size(791, 419);
             this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Stock";
+            this.tabPage1.Text = "Home";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // tpCpu
@@ -105,7 +104,37 @@
             this.tpCpu.Text = "Cpu";
             this.tpCpu.UseVisualStyleBackColor = true;
             this.tpCpu.Click += new System.EventHandler(this.tpCpu_Click);
-            this.tpCpu.Enter += new System.EventHandler(this.tpCpu_Enter);
+            // 
+            // tpGpu
+            // 
+            this.tpGpu.Controls.Add(this.dataGridView2);
+            this.tpGpu.Controls.Add(this.groupBox2);
+            this.tpGpu.Location = new System.Drawing.Point(4, 25);
+            this.tpGpu.Name = "tpGpu";
+            this.tpGpu.Padding = new System.Windows.Forms.Padding(3);
+            this.tpGpu.Size = new System.Drawing.Size(811, 450);
+            this.tpGpu.TabIndex = 2;
+            this.tpGpu.Text = "Gpu";
+            this.tpGpu.UseVisualStyleBackColor = true;
+            // 
+            // tabPage4
+            // 
+            this.tabPage4.Location = new System.Drawing.Point(4, 25);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage4.Size = new System.Drawing.Size(791, 419);
+            this.tabPage4.TabIndex = 3;
+            this.tabPage4.Text = "Add new";
+            this.tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(44, 23);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowTemplate.Height = 24;
+            this.dataGridView1.Size = new System.Drawing.Size(596, 213);
+            this.dataGridView1.TabIndex = 0;
             // 
             // groupBox1
             // 
@@ -128,82 +157,22 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Filter by:";
             // 
-            // label6
+            // cbMan
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(326, 70);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(44, 17);
-            this.label6.TabIndex = 10;
-            this.label6.Text = "Price:";
+            this.cbMan.FormattingEnabled = true;
+            this.cbMan.Location = new System.Drawing.Point(106, 21);
+            this.cbMan.Name = "cbMan";
+            this.cbMan.Size = new System.Drawing.Size(121, 24);
+            this.cbMan.TabIndex = 0;
             // 
-            // label5
+            // label1
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(326, 29);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(49, 17);
-            this.label5.TabIndex = 9;
-            this.label5.Text = "Cores:";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(15, 153);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(50, 17);
-            this.label4.TabIndex = 8;
-            this.label4.Text = "Model:";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(15, 112);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(54, 17);
-            this.label3.TabIndex = 7;
-            this.label3.Text = "InStock";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(15, 70);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(42, 17);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Year:";
-            // 
-            // cbPrice
-            // 
-            this.cbPrice.FormattingEnabled = true;
-            this.cbPrice.Location = new System.Drawing.Point(386, 62);
-            this.cbPrice.Name = "cbPrice";
-            this.cbPrice.Size = new System.Drawing.Size(121, 24);
-            this.cbPrice.TabIndex = 6;
-            // 
-            // cbCores
-            // 
-            this.cbCores.FormattingEnabled = true;
-            this.cbCores.Location = new System.Drawing.Point(386, 21);
-            this.cbCores.Name = "cbCores";
-            this.cbCores.Size = new System.Drawing.Size(121, 24);
-            this.cbCores.TabIndex = 5;
-            // 
-            // cbYear
-            // 
-            this.cbYear.FormattingEnabled = true;
-            this.cbYear.Location = new System.Drawing.Point(106, 67);
-            this.cbYear.Name = "cbYear";
-            this.cbYear.Size = new System.Drawing.Size(121, 24);
-            this.cbYear.TabIndex = 4;
-            // 
-            // cbStock
-            // 
-            this.cbStock.FormattingEnabled = true;
-            this.cbStock.Location = new System.Drawing.Point(106, 104);
-            this.cbStock.Name = "cbStock";
-            this.cbStock.Size = new System.Drawing.Size(121, 24);
-            this.cbStock.TabIndex = 3;
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(15, 29);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(88, 16);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Manufacturer:";
             // 
             // cbModel
             // 
@@ -213,55 +182,82 @@
             this.cbModel.Size = new System.Drawing.Size(121, 24);
             this.cbModel.TabIndex = 2;
             // 
-            // label1
+            // cbStock
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(15, 29);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(96, 17);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Manufacturer:";
+            this.cbStock.FormattingEnabled = true;
+            this.cbStock.Location = new System.Drawing.Point(106, 104);
+            this.cbStock.Name = "cbStock";
+            this.cbStock.Size = new System.Drawing.Size(121, 24);
+            this.cbStock.TabIndex = 3;
             // 
-            // cbMan
+            // cbYear
             // 
-            this.cbMan.FormattingEnabled = true;
-            this.cbMan.Location = new System.Drawing.Point(106, 21);
-            this.cbMan.Name = "cbMan";
-            this.cbMan.Size = new System.Drawing.Size(121, 24);
-            this.cbMan.TabIndex = 0;
-            this.cbMan.SelectedIndexChanged += new System.EventHandler(this.cbMan_SelectedIndexChanged);
+            this.cbYear.FormattingEnabled = true;
+            this.cbYear.Location = new System.Drawing.Point(106, 67);
+            this.cbYear.Name = "cbYear";
+            this.cbYear.Size = new System.Drawing.Size(121, 24);
+            this.cbYear.TabIndex = 4;
             // 
-            // dataGridView1
+            // cbCores
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(44, 23);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(596, 213);
-            this.dataGridView1.TabIndex = 0;
+            this.cbCores.FormattingEnabled = true;
+            this.cbCores.Location = new System.Drawing.Point(386, 21);
+            this.cbCores.Name = "cbCores";
+            this.cbCores.Size = new System.Drawing.Size(121, 24);
+            this.cbCores.TabIndex = 5;
             // 
-            // tpGpu
+            // cbPrice
             // 
-            this.tpGpu.Controls.Add(this.dataGridView2);
-            this.tpGpu.Controls.Add(this.groupBox2);
-            this.tpGpu.Location = new System.Drawing.Point(4, 25);
-            this.tpGpu.Name = "tpGpu";
-            this.tpGpu.Padding = new System.Windows.Forms.Padding(3);
-            this.tpGpu.Size = new System.Drawing.Size(811, 450);
-            this.tpGpu.TabIndex = 2;
-            this.tpGpu.Text = "Gpu";
-            this.tpGpu.UseVisualStyleBackColor = true;
+            this.cbPrice.FormattingEnabled = true;
+            this.cbPrice.Location = new System.Drawing.Point(386, 62);
+            this.cbPrice.Name = "cbPrice";
+            this.cbPrice.Size = new System.Drawing.Size(121, 24);
+            this.cbPrice.TabIndex = 6;
             // 
-            // dataGridView2
+            // label2
             // 
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Location = new System.Drawing.Point(44, 23);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.RowHeadersWidth = 51;
-            this.dataGridView2.RowTemplate.Height = 24;
-            this.dataGridView2.Size = new System.Drawing.Size(596, 213);
-            this.dataGridView2.TabIndex = 3;
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(15, 70);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(40, 16);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Year:";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(15, 112);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(52, 16);
+            this.label3.TabIndex = 7;
+            this.label3.Text = "InStock";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(15, 153);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(49, 16);
+            this.label4.TabIndex = 8;
+            this.label4.Text = "Model:";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(326, 29);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(47, 16);
+            this.label5.TabIndex = 9;
+            this.label5.Text = "Cores:";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(326, 70);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(42, 16);
+            this.label6.TabIndex = 10;
+            this.label6.Text = "Price:";
             // 
             // groupBox2
             // 
@@ -289,7 +285,7 @@
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(326, 70);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(44, 17);
+            this.label7.Size = new System.Drawing.Size(42, 16);
             this.label7.TabIndex = 10;
             this.label7.Text = "Price:";
             // 
@@ -298,7 +294,7 @@
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(326, 29);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(49, 17);
+            this.label8.Size = new System.Drawing.Size(47, 16);
             this.label8.TabIndex = 9;
             this.label8.Text = "Cores:";
             // 
@@ -307,7 +303,7 @@
             this.label9.AutoSize = true;
             this.label9.Location = new System.Drawing.Point(15, 153);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(50, 17);
+            this.label9.Size = new System.Drawing.Size(49, 16);
             this.label9.TabIndex = 8;
             this.label9.Text = "Model:";
             // 
@@ -316,7 +312,7 @@
             this.label10.AutoSize = true;
             this.label10.Location = new System.Drawing.Point(15, 112);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(54, 17);
+            this.label10.Size = new System.Drawing.Size(52, 16);
             this.label10.TabIndex = 7;
             this.label10.Text = "InStock";
             // 
@@ -325,7 +321,7 @@
             this.label11.AutoSize = true;
             this.label11.Location = new System.Drawing.Point(15, 70);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(42, 17);
+            this.label11.Size = new System.Drawing.Size(40, 16);
             this.label11.TabIndex = 2;
             this.label11.Text = "Year:";
             // 
@@ -374,7 +370,7 @@
             this.label12.AutoSize = true;
             this.label12.Location = new System.Drawing.Point(15, 29);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(96, 17);
+            this.label12.Size = new System.Drawing.Size(88, 16);
             this.label12.TabIndex = 1;
             this.label12.Text = "Manufacturer:";
             // 
@@ -386,16 +382,14 @@
             this.comboBox6.Size = new System.Drawing.Size(121, 24);
             this.comboBox6.TabIndex = 0;
             // 
-            // tabPage4
+            // dataGridView2
             // 
-            this.tabPage4.Location = new System.Drawing.Point(4, 25);
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(811, 450);
-            this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "Add new";
-            this.tabPage4.UseVisualStyleBackColor = true;
-            this.tabPage4.Enter += new System.EventHandler(this.tabPage4_Enter);
+            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView2.Location = new System.Drawing.Point(44, 23);
+            this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.RowTemplate.Height = 24;
+            this.dataGridView2.Size = new System.Drawing.Size(596, 213);
+            this.dataGridView2.TabIndex = 3;
             // 
             // Form3
             // 
@@ -404,17 +398,17 @@
             this.ClientSize = new System.Drawing.Size(815, 477);
             this.Controls.Add(this.tabControl1);
             this.Name = "Form3";
-            this.Text = "Form3-Search";
+            this.Text = "Form3";
             this.Load += new System.EventHandler(this.Form3_Load);
             this.tabControl1.ResumeLayout(false);
             this.tpCpu.ResumeLayout(false);
+            this.tpGpu.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            this.tpGpu.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.ResumeLayout(false);
 
         }
