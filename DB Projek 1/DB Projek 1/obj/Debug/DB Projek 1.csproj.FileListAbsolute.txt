@@ -10,18 +10,15 @@ C:\Users\28537084\Desktop\DatabaseProject1\DB Projek 1\DB Projek 1\obj\Debug\DB 
 C:\Users\28537084\Desktop\DatabaseProject1\DB Projek 1\DB Projek 1\obj\Debug\DB Projek 1.pdb
 C:\Users\28537084\Desktop\DatabaseProject1\DB Projek 1\DB Projek 1\obj\Debug\DB_Projek_1.Form2.resources
 C:\Users\28537084\Desktop\DatabaseProject1\DB Projek 1\DB Projek 1\obj\Debug\DB_Projek_1.Form3.resources
-C:\Users\28537084\Desktop\DatabaseProject1\DB Projek 1\DB Projek 1\bin\Debug\SpecDB1.mdb
-E:\CMPG212\DatabaseProject1\DB Projek 1\DB Projek 1\bin\Debug\DB Projek 1.exe.config
-E:\CMPG212\DatabaseProject1\DB Projek 1\DB Projek 1\bin\Debug\DB Projek 1.exe
-E:\CMPG212\DatabaseProject1\DB Projek 1\DB Projek 1\bin\Debug\DB Projek 1.pdb
-E:\CMPG212\DatabaseProject1\DB Projek 1\DB Projek 1\obj\Debug\DB Projek 1.csprojAssemblyReference.cache
-E:\CMPG212\DatabaseProject1\DB Projek 1\DB Projek 1\obj\Debug\DB_Projek_1.Form1.resources
-E:\CMPG212\DatabaseProject1\DB Projek 1\DB Projek 1\obj\Debug\DB_Projek_1.Form2.resources
-E:\CMPG212\DatabaseProject1\DB Projek 1\DB Projek 1\obj\Debug\DB_Projek_1.Form3.resources
-E:\CMPG212\DatabaseProject1\DB Projek 1\DB Projek 1\obj\Debug\DB_Projek_1.Properties.Resources.resources
-E:\CMPG212\DatabaseProject1\DB Projek 1\DB Projek 1\obj\Debug\DB Projek 1.csproj.GenerateResource.cache
-E:\CMPG212\DatabaseProject1\DB Projek 1\DB Projek 1\obj\Debug\DB Projek 1.csproj.CoreCompileInputs.cache
-E:\CMPG212\DatabaseProject1\DB Projek 1\DB Projek 1\obj\Debug\DB Projek 1.exe
-E:\CMPG212\DatabaseProject1\DB Projek 1\DB Projek 1\obj\Debug\DB Projek 1.pdb
-E:\CMPG212\DatabaseProject1\DB Projek 1\DB Projek 1\bin\Debug\Database1.mdf
-E:\CMPG212\DatabaseProject1\DB Projek 1\DB Projek 1\bin\Debug\Database1_log.ldf
+C:\Users\johnk\Documents\MEGA\#MyWerk\2020\CMPG 212\Projek1\DatabaseProject1\DatabaseProject1\DB Projek 1\DB Projek 1\bin\Debug\DB Projek 1.exe.config
+C:\Users\johnk\Documents\MEGA\#MyWerk\2020\CMPG 212\Projek1\DatabaseProject1\DatabaseProject1\DB Projek 1\DB Projek 1\bin\Debug\DB Projek 1.exe
+C:\Users\johnk\Documents\MEGA\#MyWerk\2020\CMPG 212\Projek1\DatabaseProject1\DatabaseProject1\DB Projek 1\DB Projek 1\bin\Debug\DB Projek 1.pdb
+C:\Users\johnk\Documents\MEGA\#MyWerk\2020\CMPG 212\Projek1\DatabaseProject1\DatabaseProject1\DB Projek 1\DB Projek 1\obj\Debug\DB Projek 1.csprojAssemblyReference.cache
+C:\Users\johnk\Documents\MEGA\#MyWerk\2020\CMPG 212\Projek1\DatabaseProject1\DatabaseProject1\DB Projek 1\DB Projek 1\obj\Debug\DB_Projek_1.Form1.resources
+C:\Users\johnk\Documents\MEGA\#MyWerk\2020\CMPG 212\Projek1\DatabaseProject1\DatabaseProject1\DB Projek 1\DB Projek 1\obj\Debug\DB_Projek_1.Form2.resources
+C:\Users\johnk\Documents\MEGA\#MyWerk\2020\CMPG 212\Projek1\DatabaseProject1\DatabaseProject1\DB Projek 1\DB Projek 1\obj\Debug\DB_Projek_1.Form3.resources
+C:\Users\johnk\Documents\MEGA\#MyWerk\2020\CMPG 212\Projek1\DatabaseProject1\DatabaseProject1\DB Projek 1\DB Projek 1\obj\Debug\DB_Projek_1.Properties.Resources.resources
+C:\Users\johnk\Documents\MEGA\#MyWerk\2020\CMPG 212\Projek1\DatabaseProject1\DatabaseProject1\DB Projek 1\DB Projek 1\obj\Debug\DB Projek 1.csproj.GenerateResource.cache
+C:\Users\johnk\Documents\MEGA\#MyWerk\2020\CMPG 212\Projek1\DatabaseProject1\DatabaseProject1\DB Projek 1\DB Projek 1\obj\Debug\DB Projek 1.csproj.CoreCompileInputs.cache
+C:\Users\johnk\Documents\MEGA\#MyWerk\2020\CMPG 212\Projek1\DatabaseProject1\DatabaseProject1\DB Projek 1\DB Projek 1\obj\Debug\DB Projek 1.exe
+C:\Users\johnk\Documents\MEGA\#MyWerk\2020\CMPG 212\Projek1\DatabaseProject1\DatabaseProject1\DB Projek 1\DB Projek 1\obj\Debug\DB Projek 1.pdb
